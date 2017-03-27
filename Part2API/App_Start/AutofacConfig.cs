@@ -1,7 +1,8 @@
 ﻿using Autofac;
 using BusinessLayer;
 using DataLayer;
-using Entities.Abstractions;
+using BusinessLayer.Abstractions;
+using DataLayer.Abstractions;
 
 namespace Part2API
 {

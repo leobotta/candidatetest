@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\IDeveloperBC.cs" />
     <Compile Include="DeveloperBC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

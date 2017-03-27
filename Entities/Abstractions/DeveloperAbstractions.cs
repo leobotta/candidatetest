@@ -6,18 +6,6 @@ using System.Threading.Tasks;
 
 namespace Entities.Abstractions
 {
-    public interface IDeveloperDA
-    {
-        Task<IEnumerable<IDeveloper>> GetDevelopers(string filePath);
-    }
-
-    public interface IDeveloperBC
-    {
-        Task<IEnumerable<IDeveloper>> GetDevelopers();
-        void GetDeveloperBestSkills(ref IEnumerable<IDeveloper> developers);
-
-    }
-
     public interface IDeveloper
     {
         string FirstName { get; set; }
